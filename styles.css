@@ -1,0 +1,15 @@
+body {
+    background-color: #f8f9fa; 
+}
+
+.container {
+    width: 80vw;
+    min-width: 700px;
+}
+
+@media (max-width: 1024px) {
+    .container {
+        width: 100vw;
+        min-width: auto;
+    }
+}
